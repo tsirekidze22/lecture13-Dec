@@ -1,0 +1,27 @@
+.skills-section {
+  max-width: 1400px;
+  width: 100%;
+  min-height: 200px;
+  height: 100%;
+  margin: 120px auto;
+
+  h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #212529;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+  }
+  .skills-list {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    .skill-card {
+      text-align: center;
+      img {
+        width: 80px;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
